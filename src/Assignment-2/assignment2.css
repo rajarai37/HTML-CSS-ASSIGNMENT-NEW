@@ -2,6 +2,86 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+.page-header {
+    background-color:lavender;
+    margin: 5px;
+    border: 1px snow;
+    padding: 10px;
+}
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.upper {
+    background-color:plum;
+    display:block;
+    border: 1px snow;
+    padding:10px;
+    margin:10px;
+
+}
+.logo,form {
+    display: inline-block;
+    width: 48%;
+}
+ul {
+    list-style:none;
+    }
+nav{
+    background-color: whitesmoke;
+    text-align: center;
+    border:1px snow;
+    margin:10px;
+    padding: 10px;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+aside {
+    background-color:plum;
+    display: inline-block;
+    vertical-align: top;
+    width:20%;
+    height: 400px;
+    margin:10px;
+    border:1px snow;
+    padding:10px
+}
+section {
+    display: inline-block;
+    width:45%;
+    height: 425px;
+    margin:10px;
+    padding:10px;
+    border:1px snow;
+}
+.row {
+    width: 100%;
+    display:block;
+    margin:5px;
+    padding:5px;
+    border: 1px snow;
+}
+.col {
+    display: inline-block;
+    width: 28%;
+    margin:10px;
+    padding:5px;
+}
+section img{
+    width:150px;
+    height:150px;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+    border:1px snow;
+    padding: 30px;
 }
